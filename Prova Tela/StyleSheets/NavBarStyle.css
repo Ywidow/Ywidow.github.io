@@ -1,0 +1,86 @@
+.nav__first-buttons{
+  display: flex;
+
+  width: 100%;
+
+  justify-content: space-between;
+}
+
+.first-buttons__icon{
+  display: flex;
+
+  font-size: clamp(5px, 1.5vw, 70px);
+
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.nav__user-area{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5vw;
+}
+
+.nav__figure{
+  border: 0px, solid, transparent;
+  border-radius: 100%;
+}
+
+.nav__image{
+  border: 0px, solid, transparent;
+  border-radius: 100%;
+  width: 5.5vw;
+}
+
+.user-area__text{
+  color: #FFFFFF;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(5px, 1vw, 22px);
+}
+
+.nav__list{
+  display: flex;
+
+  flex-direction: column;
+  row-gap: 2vw;
+}
+
+.nav__list-item{
+  display: flex;
+
+  width: 100%;
+
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  cursor: pointer;
+}
+
+.list-item__info{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  column-gap: 1vw;
+}
+
+.info__icon{
+  font-size: clamp(5px, 1.2vw, 70px);
+}
+
+.info__icon--size--small{
+  font-size: clamp(5px, 0.8vw, 70px)
+}
+
+.info__text{
+  color: #CDCDCD;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(5px, 1vw, 22px);
+}
