@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <!--Styles Sheets Links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./StyleSheets/NavBarStyle.css">
+    
+    <!--FontAwesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--GoogleFonts Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav__first-buttons">
+        <i class="fa-solid fa-bell first-buttons__icon" style="color: #0D9488;"></i>
+
+        <i class="fa-solid fa-gear first-buttons__icon" style="color: #CDCDCD;"></i>
+      </div>
+
+      <div class="nav__user-area">
+        <figure class="nav__figure">
+          <img src="./Images/image 2.png" class="nav__image" alt="UserImage">
+        </figure>
+
+        <p class="user-area__text">Lance Newmann</p>
+      </div>
+
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-calendar info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Schedule</p>
+          </div>
+
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-bell-concierge info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Orders</p>
+          </div>
+
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-user info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Customers</p>
+          </div>
+          
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-briefcase info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Employees</p>
+          </div>
+
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-scissors info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Services</p>
+          </div>
+
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-paperclip info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Products</p>
+          </div>
+
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+        
+        <li class="nav__list-item">
+          <div class="list-item__info">
+            <i class="fa-solid fa-parachute-box info__icon" style="color: #CDCDCD;"></i>
+            <p class="info__text">Suppliers</p>
+          </div>
+
+          <i class="fa-solid fa-chevron-down info__icon--size--small fa-rotate-270" style="color: #CDCDCD;"></i>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="body__section">
+      <div class="section__edit-item">
+        <div class="main__tittle-container">
+          <h1 class="tittle-container__text">EDIT SERVICE</h1>
+        </div>
+
+        <div class="form-area">
+          <div class="form-area__tittle-area">
+            <div class="form-area__text">Information</div>
+            <hr>
+          </div>
+
+          <form class="form-area__form">
+            <div class="form__first-container">
+              <div class="form__input-container">
+                <label for="Name-Input" class="form__input-label">NAME</label>
+
+                <input type="text" class="form__input" name="Name-Input" id="Name-Input"> 
+              </div>
+
+
+             <div class="form__input-container">
+              <label for="form__textarea" class="form__input-label">DESCRIPTION</label>
+              <textarea name="" id="form__textarea" cols="30" rows="10" class="form__textarea"></textarea>
+             </div>
+            </div>
+
+            <div class="form__second-container">
+              <div class="form__input-container">
+                <label for="Name-Input" class="form__input-label">
+                  <i class="fa-solid fa-asterisk form__icon"></i>  
+                  PRICE
+                </label>
+
+                <input type="text" class="form__input" name="Name-Input" id="Name-Input"> 
+              </div>
+
+              <div class="form__input-container">
+                <label for="Name-Input" class="form__input-label">
+                  <i class="fa-solid fa-asterisk form__icon"></i>  
+                  CATEGORY
+                </label>
+
+                <input type="text" class="form__input" name="Name-Input" id="Name-Input"> 
+              </div>
+
+              <div class="form__input-container">
+                <label for="Name-Input" class="form__input-label">
+                  <i class="fa-solid fa-asterisk form__icon"></i>  
+
+                  DURATION
+                </label>
+
+                <input type="text" class="form__input" name="Name-Input" id="Name-Input"> 
+              </div>
+            </div>
+          </form>
+
+          <div class="form-area__buttons-area">
+            <div class="buttons-area__buttons">
+              <button class="buttons__button">
+                SAVE
+              </button>
+
+              <button class="buttons__button--color--grey" id="cancel-button">
+                CANCEL
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="section__main">
+        <div class="main__tittle-container">
+          <h1 class="tittle-container__text">Services</h1>
+        </div>
+
+        <div class="main__table-area">
+          <div class="table-area__filter-area">
+            <input type="search" placeholder="Search services" id="table-search" name="table-search" class="filter-area__search-input"/>
+            <button class="filter-area__button">
+              <i class="fa-solid fa-magnifying-glass filter-area__icon"></i>
+            </button>
+          </div>
+
+          <table class="table-area__table">
+            <thead>
+              <tr>
+                <th class="table__th">
+                  <b>NAME</b>
+                  <i class="fa-solid fa-chevron-down table__icons"></i>
+                </th>
+
+                <th class="table__th th__description">
+                  <b>DESCRIPTION</b>
+                </th>
+
+                <th class="table__th">
+                  <b>CATEGORY</b>
+                </th>
+
+                <th class="table__th">
+                  <b>PRICE</b>
+                  <i class="fa-solid fa-chevron-down table__icons"></i>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="tbody__tr">
+                <td>Van Dyke</td>
+                <td>Bigode levemente curvado com cavanhaque pontudo</td>
+                <td>Cabelo</td>
+                <td>10.20</td>
+              </tr>
+
+              <tr class="tbody__tr">
+                <td>GARIBALDI</td>
+                <td>ALTO VOLUME E BIGODE LONGO</td>
+                <td>Cabelo</td>
+                <td>10.20</td>
+              </tr>
+
+              <tr class="tbody__tr">
+                <td>Undercut</td>
+                <td>Corte lateral e traseiro completo</td>
+                <td>Cabelo</td>
+                <td>10.20</td>
+              </tr>
+
+              <tr class="tbody__tr">
+                <td>High Fade</td>
+                <td>Corte na zero sem transição até 5 cm acima da nuca</td>
+                <td>Barba</td>
+                <td>10.20</td>
+              </tr>
+
+              <tr class="tbody__tr">
+                <td>Degradê</td>
+                <td>Corte partindo da zero até o tamanho especificado</td>
+                <td>Cabelo</td>
+                <td>10.20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-area__pagination-area">
+          <div class="pagination-area__button">
+            <i class="fa-solid fa-angles-left pagination-area__arrow-icon"></i>
+            <i class="fa-solid fa-angles-left pagination-area__arrow-icon"></i>
+          </div>
+
+          <div class="pagination-area__button">
+            <i class="fa-solid fa-angles-left pagination-area__arrow-icon"></i>
+          </div>
+
+          <div class="pagination-area__button">1</div>
+
+          <div class="pagination-area__button">2</div>
+
+          <div class="pagination-area__button">3</div>
+
+          <div class="pagination-area__button">4</div>
+
+          <div class="pagination-area__button">5</div>
+
+          <div class="pagination-area__button">
+            <i class="fa-solid fa-angles-right pagination-area__arrow-icon"></i>
+          </div>
+
+          <div class="pagination-area__button">
+            <i class="fa-solid fa-angles-right pagination-area__arrow-icon"></i>
+            <i class="fa-solid fa-angles-right pagination-area__arrow-icon"></i>
+          </div>
+        </div>
+      </main>
+    </section>    
+  </body>
+
+  <script src="./index.js"></script>
+</html>
